@@ -21,7 +21,6 @@ body {
   color: var(--primary-text-color);
 
   font-family: "Roboto", sans-serif;
-  padding: 0;
   margin: 0;
 }
 
@@ -34,9 +33,9 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Logo */
@@ -90,9 +89,9 @@ body {
   margin-left: 50px;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-nav .current {
+.link:hover,
+.link:focus,
+.current {
   color: var(--accent-text-color);
 }
 
@@ -114,7 +113,8 @@ body {
 }
 
 .contacts .link:hover,
-.contacts .link:focus .contacts-bottom .link:hover,
+.contacts .link:focus,
+.contacts-bottom .link:hover,
 .contacts-bottom .link:focus {
   color: var(--accent-text-color);
 }
@@ -208,6 +208,11 @@ footer {
   background-color: var(--secondary-bg-color);
 }
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .address {
   color: var(--primary-bg-color);
   font-weight: 400;
@@ -219,6 +224,20 @@ footer {
 .address:hover,
 .address:focus {
   color: var(--accent-text-color);
+}
+
+.contacts-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-bottom .link {
+  margin-top: 9px;
+}
+
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
 }
 
 /* Portfolio */
