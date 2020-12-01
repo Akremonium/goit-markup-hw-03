@@ -336,6 +336,11 @@ header {
 
 /* Portfolio */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Filter */
 
 .condition {
@@ -360,7 +365,6 @@ header {
 .filter {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -397,7 +401,6 @@ header {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .projects-item:not(:nth-child(3n)) {
